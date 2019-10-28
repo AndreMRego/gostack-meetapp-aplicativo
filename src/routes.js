@@ -32,10 +32,13 @@ export default (isSigned = false) =>
                   activeTintColor: '#FFF',
                   labelStyle: {
                     fontSize: 12,
+                    textAlign: 'center',
+                    marginBottom: 10,
                   },
                   inactiveTintColor: 'rgba(255, 255, 255, 0.6)',
                   style: {
                     backgroundColor: '#2B1A2F',
+                    height: 64,
                   },
                 },
               }
